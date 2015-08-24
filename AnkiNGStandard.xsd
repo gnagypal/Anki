@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="AnkiCards">
+    <xs:element name="NewsItemsTable">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="AnkiCardRow" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="NewsItemRow" minOccurs="0" maxOccurs="unbounded"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name="AnkiCardRow">
+    <xs:element name="NewsItemRow">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="ID" type="xs:string"/>
-				<xs:element name="FrontHTML" type="xs:string"/>
-				<xs:element name="BackHTML" type="xs:string"/>
-				<xs:element name="BackText" type="xs:string"/>
+				<xs:element name="Front" type="xs:string"/>
+				<xs:element name="Back" type="xs:string"/>
 				<xs:element name="BackSound" type="xs:string"/>
-				<xs:element name="ExampleHTML" type="xs:string"/>
-				<xs:element name="ExampleText" type="xs:string"/>
+				<xs:element name="Example" type="xs:string"/>
 				<xs:element name="ExampleSound" type="xs:string"/>
-				<xs:element name="CommentHTML" type="xs:string"/>
+				<xs:element name="Comment" type="xs:string"/>
 				<xs:element name="AddReverse" type="xs:string"/>
 				<xs:element name="Tags" type="xs:string"/>
             </xs:sequence>
