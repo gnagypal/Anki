@@ -1,0 +1,2 @@
+..\bin\AnkiTTSGenerator.exe  --function GenerateTTS --voice: "IVONA 2 Amy" --destinationDirectory c:\temp\mp3 --IDElementName ID --mp3FilePrefix NewHeadwayInt4HU --rowElementName AnkiCardRow --textElementNames BackText ExampleText --sourceXmlFileName NewHeadwayInt4HU.xml
+pause

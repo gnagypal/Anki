@@ -2,7 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
-
+    using System.ComponentModel.Design;
     using System.IO;
     using System.Speech.Synthesis;
     using System.Xml.Linq;
@@ -89,6 +89,8 @@
 
         private void GenerateTTS(Configuration cfg)
         {
+            this.InitDestinationDirectory(cfg);
+
             using (var synthesizer = new SpeechSynthesizer())
             {
                 this.InitializeSpeechSynthesizer(cfg, synthesizer);
@@ -112,6 +114,30 @@
                         i++;
                     }
                 }
+            }
+        }
+
+        private void InitDestinationDirectory(Configuration cfg)
+        {
+            if (string.IsNullOrEmpty(cfg.DestinationDirectory))
+            {
+                cfg.DestinationDirectory = ".";
+            }
+
+            try
+            {
+                cfg.DestinationDirectory = Path.GetFullPath(cfg.DestinationDirectory);
+            }
+            catch (Exception ex)
+            {
+                throw new ApplicationException(
+                    string.Format("Invalid DestinationDirectory! '{0}'", cfg.DestinationDirectory),
+                    ex);
+            }
+
+            if (!Directory.Exists(cfg.DestinationDirectory))
+            {
+                Directory.CreateDirectory(cfg.DestinationDirectory);
             }
         }
 
