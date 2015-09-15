@@ -8726,8 +8726,8 @@
 	<AnkiCardRow>
 		<ID>400672</ID>
 		<FrontHTML>megőrjít (v)</FrontHTML>
-		<BackHTML>drive sb crazy</BackHTML>
-		<BackText>drive sb crazy</BackText>
+		<BackHTML>drive somebody crazy</BackHTML>
+		<BackText>drive somebody crazy</BackText>
 		<BackSound>[sound:NewHeadwayInt4HU400672A.mp3]</BackSound>
 		<ExampleHTML>Sam is so annoying – he drives me crazy!</ExampleHTML>
 		<ExampleText>Sam is so annoying – he drives me crazy!</ExampleText>
@@ -14406,7 +14406,7 @@
 	</AnkiCardRow>
 	<AnkiCardRow>
 		<ID>401109</ID>
-		<FrontHTML>felszerelés, beren-dezés, lehetőségek (pl n)</FrontHTML>
+		<FrontHTML>felszerelés, berendezés, lehetőségek (pl n)</FrontHTML>
 		<BackHTML>facilities</BackHTML>
 		<BackText>facilities</BackText>
 		<BackSound>[sound:NewHeadwayInt4HU401109A.mp3]</BackSound>
@@ -14705,9 +14705,9 @@
 	</AnkiCardRow>
 	<AnkiCardRow>
 		<ID>401132</ID>
-		<FrontHTML>(kimossa a szennyesét) ()</FrontHTML>
-		<BackHTML>(do so’s laundry)</BackHTML>
-		<BackText>(do so’s laundry)</BackText>
+		<FrontHTML>kimossa a szennyesét</FrontHTML>
+		<BackHTML>do somebody’s laundry</BackHTML>
+		<BackText>do somebody’s laundry</BackText>
 		<BackSound>[sound:NewHeadwayInt4HU401132A.mp3]</BackSound>
 		<ExampleHTML/>
 		<ExampleText/>
@@ -15069,7 +15069,7 @@
 	</AnkiCardRow>
 	<AnkiCardRow>
 		<ID>401160</ID>
-		<FrontHTML>szilikon (n)</FrontHTML>
+		<FrontHTML>szilícium (n)</FrontHTML>
 		<BackHTML>silicon</BackHTML>
 		<BackText>silicon</BackText>
 		<BackSound>[sound:NewHeadwayInt4HU401160A.mp3]</BackSound>
@@ -16279,8 +16279,8 @@
 	<AnkiCardRow>
 		<ID>401253</ID>
 		<FrontHTML>kitalál (v)</FrontHTML>
-		<BackHTML>make sth up</BackHTML>
-		<BackText>make sth up</BackText>
+		<BackHTML>make something up</BackHTML>
+		<BackText>make something up</BackText>
 		<BackSound>[sound:NewHeadwayInt4HU401253A.mp3]</BackSound>
 		<ExampleHTML>Is that true, or did you make it up?</ExampleHTML>
 		<ExampleText>Is that true, or did you make it up?</ExampleText>
@@ -16838,8 +16838,8 @@
 	<AnkiCardRow>
 		<ID>401296</ID>
 		<FrontHTML>rájön, kiszámít (v)</FrontHTML>
-		<BackHTML>work sth out</BackHTML>
-		<BackText>work sth out</BackText>
+		<BackHTML>work something out</BackHTML>
+		<BackText>work something out</BackText>
 		<BackSound>[sound:NewHeadwayInt4HU401296A.mp3]</BackSound>
 		<ExampleHTML>It’s a difficult sum – I can’t work out the answer.</ExampleHTML>
 		<ExampleText>It’s a difficult sum – I can’t work out the answer.</ExampleText>
@@ -16993,7 +16993,7 @@
 	</AnkiCardRow>
 	<AnkiCardRow>
 		<ID>401308</ID>
-		<FrontHTML>tudomása van (v)</FrontHTML>
+		<FrontHTML>nincs tudomása valamiről (v)</FrontHTML>
 		<BackHTML>be unaware (of)</BackHTML>
 		<BackText>be unaware (of)</BackText>
 		<BackSound>[sound:NewHeadwayInt4HU401308A.mp3]</BackSound>
@@ -17218,8 +17218,8 @@
 		<BackHTML>existence</BackHTML>
 		<BackText>existence</BackText>
 		<BackSound>[sound:NewHeadwayInt4HU401325A.mp3]</BackSound>
-		<ExampleHTML>The struggle for ~ means only the strongest survive.</ExampleHTML>
-		<ExampleText>The struggle for ~ means only the strongest survive.</ExampleText>
+		<ExampleHTML>The struggle for existence means only the strongest survive.</ExampleHTML>
+		<ExampleText>The struggle for existence means only the strongest survive.</ExampleText>
 		<ExampleSound>[sound:NewHeadwayInt4HU401325B.mp3]</ExampleSound>
 		<CommentHTML/>
 		<AddReverse>X</AddReverse>
